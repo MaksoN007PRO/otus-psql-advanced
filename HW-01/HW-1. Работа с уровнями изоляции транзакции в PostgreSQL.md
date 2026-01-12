@@ -1,6 +1,6 @@
 1. Создаем файл `docker-compose.yml`:
 
-![](<images/Pasted image 20260112134118.png>)
+![](<Pasted image 20260112134118.png>)
 
 2. Поднимаем контейнер `otus-psql-mefanov` с PostgreSQL контейнера с PostgreSQL:
    
