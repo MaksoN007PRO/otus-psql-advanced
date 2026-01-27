@@ -276,8 +276,7 @@ sudo systemctl stop patroni
 
 Как видим, на скриншоте, бывший лидер pg-1 остановлен и его место заняла нода pg-3:
 
-![[Pasted image 20260126203225.png]]
-![](<images/Pasted image 20260119152121.png>)
+![](<images/Pasted image 20260126203225.png>)
 
 Кластер остался в рабочем состоянии: 
 
