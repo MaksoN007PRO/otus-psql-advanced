@@ -15,9 +15,8 @@ sudo -u postgres createdb pgbench
 Воспользуемся [рекомендациями от PostgresPRO](https://postgrespro.ru/docs/postgrespro/14/pgbench) для тестирования утилитой pgbench.
 Ключевое правило - scale factor должен быть не меньше количества клиентов:
 
-$$
 -s ≥ -c
-$$
+
 где:
 `-s` — scale factor (размер тестовой базы)
 `-c` — количество клиентов (concurrent connections)
@@ -54,6 +53,7 @@ sudo -u postgres pgbench -c 32 -j 4 -T 60 pgbench
 |1|1316|24.3 ms|
 |2|1056|30.3 ms|
 |3|1575|20.3 ms|
+
 Среднее значение:
 
 ```
